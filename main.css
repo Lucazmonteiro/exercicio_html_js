@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    height: 300px;
+    width: 50%;
+    background-color: blue;
+    
+}
+
+.title {
+    margin-bottom: 40px;
+    color: white;
+}
+
+#form {
+    color: white;
+}
+#campo-A {
+    margin-bottom: 8px;
+}
+#enviar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    background-color: aquamarine;
+    padding-top: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+.valido {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    width: 50%;
+}
+
+.invalido {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    color: red;
+    font-weight: bold;
+    background-color: white;
+    width: 50%;
+}
